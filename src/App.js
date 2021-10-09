@@ -5,12 +5,14 @@ import PersonCard from './components/PersonCard';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <PersonCard firstName={'Sacha'} lastName={'Rinn'} age={40} hairColor={'Purple, pink, and gray'} />
-        <PersonCard firstName={'Moira'} lastName={'Rinn'} age={40} hairColor={'Purple, pink, and gray'} />
-        <PersonCard firstName={'Crys'} lastName={'Rinn'} age={40} hairColor={'Purple, pink, and gray'} />
-        <PersonCard firstName={'Jane'} lastName={'Rinn'} age={40} hairColor={'Purple, pink, and gray'} />
-      </header>
+      <div className='Container'>
+        <header className="App-header">
+          <PersonCard firstName={'Sacha'} lastName={'Rinn'} age={40} hairColor={'Gray'} />
+          <PersonCard firstName={'Moira'} lastName={'Rinn'} age={25} hairColor={'Purple'} />
+          <PersonCard firstName={'Carys'} lastName={'Rinn'} age={18} hairColor={'Pink'} />
+          <PersonCard firstName={'Jane'} lastName={'Doe'} age={27} hairColor={'Black'} />
+        </header>
+      </div>
     </div>
   );
 }
